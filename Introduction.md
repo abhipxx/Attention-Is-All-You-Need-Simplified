@@ -1,13 +1,13 @@
 # **ATTENTION IS  ALL YOU NEED** 
 
 ## **Basic Idea**
-->Models before used RNN(Recurrent Neural Networks) LSTM(Long Short-Term Memory) for the attention mechanism.
+- Models before used RNN(Recurrent Neural Networks), LSTM(Long Short-Term Memory) for the attention mechanism.
 (vanishing gradient problem, tokens are processed one by one, word by word)
-->Problems arose when models forgot the initial part of what is being learnt due to their short memory.
-->The TRANSFORMER Model that was introduced in the paper is one of the logics used behind 99%  of the models and it introduced the concept of SELF-ATTENTION.(Parallelism)
-->SELF ATTENTION mechanism is the process through which attention weights are assigned to understand the relations between tokens.
-->While learning through transformers, it ensures that the words similar to each other are mapped in a vector space so they can use the relationships as needed when the model is used.
-->It also introduces the concept of MULTIHEAD Attention which basically is running of several SELF-ATTENTION heads parallelly.
+- Problems arose when models forgot the initial part of what is being learnt due to their short memory.
+- The TRANSFORMER Model that was introduced in the paper is one of the logics used behind 99%  of the models and it introduced the concept of SELF-ATTENTION.(Parallelism)
+- SELF ATTENTION mechanism is the process through which attention weights are assigned to understand the relations between tokens.
+- While learning through transformers, it ensures that the words similar to each other are mapped in a vector space so they can use the relationships as needed when the model is used.
+- It also introduces the concept of MULTIHEAD Attention which basically is running of several SELF-ATTENTION heads parallelly.
 
 
 ## **TRANSFORMERS:**
